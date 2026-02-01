@@ -8,7 +8,7 @@ SITES = {
         "url": "https://pixelya.fun",
         "api_me": "https://pixelya.fun/api/me",
         "api_ranking": "https://pixelya.fun/api/ranking",
-        "chunk_url": "https://pixelya.fun/tiles/5/{x}/{y}.bin",
+        "chunk_url": "https://pixelya.fun/chunks/5/{x}/{y}.bmp",
         "void_url": "https://pixelya.fun/void",
         "canvas_id": "5",
         "link_pattern": r"pixelya\.fun/#d,(-?\d+),(-?\d+),(\d+)"
@@ -17,7 +17,7 @@ SITES = {
         "url": "https://pixunivers.fun",
         "api_me": "https://pixunivers.fun/api/me",
         "api_ranking": "https://pixunivers.fun/api/ranking",
-        "chunk_url": "https://pixunivers.fun/tiles/0/{x}/{y}.bin",
+        "chunk_url": "https://pixunivers.fun/chunks/0/{x}/{y}.bmp",
         "void_url": "https://pixunivers.fun/void",
         "canvas_id": "0",
         "link_pattern": r"pixunivers\.fun/#d,(-?\d+),(-?\d+),(\d+)"
