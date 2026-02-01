@@ -19,8 +19,8 @@ from sites_config import SITES, get_site_names, is_valid_site
 from chunk_downloader_tg import ChunkDownloader, handle_chunk_download
 
 # ================== CONFIG ==================
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
-CREATOR_ID = 123456789  # Ваш Telegram ID
+TOKEN = "7412644873:AAGCi47lnCskvjA5-QkWowFQms862ypkXPQ"
+CREATOR_ID = 5268649092  # Ваш Telegram ID
 
 # ================== DATA ==================
 medals_db = {}
