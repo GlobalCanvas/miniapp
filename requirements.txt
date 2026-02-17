@@ -2,3 +2,4 @@ aiogram
 aiohttp
 Pillow
 pytz
+dotenv
