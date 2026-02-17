@@ -7,7 +7,7 @@ SITES = {
     "pixmap": {
         "url": "https://pixmap.fun",
         "api_me": "https://pixmap.fun/api/me",
-        "api_ranking": "https://pixmap.fun/ranking",
+        "api_factions": "https://pixmap.fun/api/faction/list",
         "chunk_url": "https://pixmap.fun/chunks/0/{x}/{y}.bmp",
         "void_url": "https://pixmap.fun/void",
         "canvas_id": "0",
