@@ -2,7 +2,6 @@
 """
 Конфігурація pixel-art сайтів для бота
 """
-
 SITES = {
     "pixmap": {
         "url": "https://pixmap.fun",
@@ -30,19 +29,25 @@ SITES = {
         "void_url": "https://pixunivers.fun/void",
         "canvas_id": "0",
         "link_pattern": r"pixunivers\.fun/#d,(-?\d+),(-?\d+),(\d+)"
+    },
+    "pixeldays": {
+        "url": "https://pixeldays.xyz",
+        "api_me": "https://pixeldays.xyz/api/me",
+        "api_ranking": "https://pixeldays.xyz/ranking",
+        "chunk_url": "https://pixeldays.xyz/chunks/0/{x}/{y}.bmp",
+        "void_url": "https://pixeldays.xyz/void",
+        "canvas_id": "0",
+        "link_pattern": r"pixeldays\.xyz/#d,(-?\d+),(-?\d+),(\d+)"
     }
 }
-
 
 def get_site_names():
     """Повертає список доступних сайтів"""
     return list(SITES.keys())
 
-
 def is_valid_site(site_name):
     """Перевіряє чи існує сайт в конфігурації"""
     return site_name in SITES
-
 
 def get_site_config(site_name):
     """Отримує конфігурацію сайту"""
