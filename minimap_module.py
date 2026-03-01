@@ -29,8 +29,8 @@ MINIMAP_SITES = {
         "url": "https://pixelya.fun",
         "api_url": "https://pixelya.fun/api/me",
         "chunk_url": "https://pixelya.fun/chunks/{canvas_id}/{x}/{y}.bmp",
-        "canvas_id": 0,  # Mini World
-        "canvas_size": 32768
+        "canvas_id": 7,  # Mini World
+        "canvas_size": 8192
     },
     "pixunivers": {
         "url": "https://pixunivers.fun",
